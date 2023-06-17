@@ -5,7 +5,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://threejs.org" target="_blank">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/threejs/threejs-original.svg" alt="Logo" width="80" height="80">
   </a>
 
@@ -14,10 +14,10 @@
   <p align="center">
     A Simple Example Demonstrating Multiple Scenes and Canvases in Three.js and Nextjs/React.js
     <br />
-    <a href="https://threejs.org/manual/#en/multiple-scenes"><strong>Explore the docs »</strong></a>
+    <a href="https://threejs.org/manual/#en/multiple-scenes" target="_blank"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://multicanvas.vercel.app" target="_blank">View Demo</a>
   </p>
 </div>
 
@@ -30,7 +30,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#built-with" >Built With</a></li>
       </ul>
     </li>
     <li>
@@ -46,7 +46,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Multi Canvas Screenshot][Demo]](https://example.com)
 
 An Example Implementation of how to create Multiple Scenes and Canvases in Three.js and Nextjs/React.js. This repository showcases the creation of a grid of cards, with each card containing its own virtual canvas in the body. The virtual canvas incorporates a gradient animation achieved through a simple noise shader. For more detailed information on the implementation process, please consult <a href="https://threejs.org/manual/#en/multiple-scenes"><strong>the official Three.js documentation.</strong></a>
 
@@ -72,7 +72,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/NacereddineRebouh/three-MultiCanvas.git
    ```
 2. Install NPM packages
    ```sh
@@ -87,7 +87,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 Nacereddine Rebouh - [Nacereddine REBOUH](https://www.linkedin.com/in/nacereddine-rebouh) - nacereddinerebouh@gmail.com
 
-Project Link: [https://github.com/NacereddineRebouh/three-MultiCanvas](https://github.com/NacereddineRebouh/three-MultiCanvas)
+Repo Link: [https://github.com/NacereddineRebouh/three-MultiCanvas](https://github.com/NacereddineRebouh/three-MultiCanvas)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -96,7 +96,7 @@ Project Link: [https://github.com/NacereddineRebouh/three-MultiCanvas](https://g
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/nacereddine-rebouh/
 [portfolio-shield]: https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139
-[portfolio-url]: https://www.linkedin.com/in/nacereddine-rebouh/
+[portfolio-url]: https://nacereddinerebouh.vercel.app/
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/

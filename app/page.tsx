@@ -108,7 +108,7 @@ export default function Page({}: Props) {
       {/* Content */}
       <div className="flex w-full max-w-[1600px] mx-auto h-full flex-col items-center justify-start py-16 px-4 md:px-12 lg:px-24">
         <div className="font-black text-4xl text-teal-700 m-6">
-          Three Configurator
+          ThreeJs Multi Canvas
         </div>
         <div className="grid sm:grid-cols-2 grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 h-full w-full p-4 rounded-3xl mx-8 bg-sky-950/10">
           {/* Canvas */}
