@@ -1,5 +1,6 @@
 <a name="readme-top"></a>
 [![LinkedIn][linkedin-shield]][linkedin-url]
+[![Portfolio][portfolio-shield]][portfolio-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -58,7 +59,7 @@ An Example Implementation of how to create Multiple Scenes and Canvases in Three
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
 * [![TailwindCss][Tailwind.Css]][tailwind-url]
-* [![Three][Three.io]][Three-url]
+* [![Three][three.js]][Three-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,9 +85,9 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- CONTACT -->
 ## Contact
 
-Nacereddine Rebouh - [@your_twitter](https://www.linkedin.com/in/nacereddine-rebouh) - nacereddinerebouh@gamil.com
+Nacereddine Rebouh - [Nacereddine REBOUH](https://www.linkedin.com/in/nacereddine-rebouh) - nacereddinerebouh@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/NacereddineRebouh/three-MultiCanvas](https://github.com/NacereddineRebouh/three-MultiCanvas)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -94,6 +95,8 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <!-- MARKDOWN LINKS & IMAGES -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/nacereddine-rebouh/
+[portfolio-shield]: https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139
+[portfolio-url]: https://www.linkedin.com/in/nacereddine-rebouh/
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
