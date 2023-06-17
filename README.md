@@ -97,7 +97,7 @@ Repo Link: [https://github.com/NacereddineRebouh/three-MultiCanvas](https://gith
 [linkedin-url]: https://www.linkedin.com/in/nacereddine-rebouh/
 [portfolio-shield]: https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139
 [portfolio-url]: https://nacereddinerebouh.vercel.app/
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: https://res.cloudinary.com/dttrs30gt/image/upload/v1686986296/screenshot_pzoe3d.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
