@@ -14,7 +14,7 @@ export default function Card2({ title, index, id, ...props }: Props) {
   return (
     <div
       {...props}
-      className="w-full place-items-stretch flex min-h-[330px] flex-col items-start justify-start gap-y-2 text-start overflow-hidden rounded-xl"
+      className="w-full place-items-stretch flex bg-cyan-800/10 p-4 min-h-[330px] flex-col items-start justify-start gap-y-2 text-start overflow-hidden rounded-xl"
     >
       <p className="p-2 text-lg font-black">{title}</p>
       <div className="relative overflow-hidden rounded-xl h-full w-full max-h-[300px]  ">
