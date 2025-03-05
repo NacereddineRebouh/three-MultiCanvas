@@ -45,7 +45,10 @@ function makeScene(elem: Element): {
 }
 
 export function SetupScenes(colorIndex: number, index: number, offset: number) {
-  const element = document.querySelector("#myThreeJsScene" + index);
+  let element = document.querySelector("#myThreeJsScene" + index);
+  if (!element) {
+    element = document.querySelector("#myThreeJsCanvas");
+  }
   if (element) {
     const palette = ColorArray[colorIndex].map(
       (color) => new THREE.Color(color)
@@ -57,6 +60,7 @@ export function SetupScenes(colorIndex: number, index: number, offset: number) {
     material.uniforms.palette.value = palette;
     material.needsUpdate = true;
     const mesh = new THREE.Mesh(planeGeometry, material);
+    mesh.name = "background";
     sceneInfo.scene.add(mesh);
     sceneInfo.mesh = mesh;
     sceneInfo.camera.position.set(0, 40, 45);
@@ -137,6 +141,17 @@ export function renderSceneInfo(
   const positiveYUpBottom = renderer.domElement.clientHeight - bottom;
   renderer.setScissor(left, positiveYUpBottom, width, height);
   renderer.setViewport(left, positiveYUpBottom, width, height);
+  renderer.render(scene, camera);
+}
+export function renderScene(
+  scene: THREE.Scene,
+  camera: THREE.PerspectiveCamera,
+  width: number,
+  height: number,
+  renderer: THREE.WebGLRenderer
+) {
+  camera.aspect = width / height;
+  camera.updateProjectionMatrix();
   renderer.render(scene, camera);
 }
 
